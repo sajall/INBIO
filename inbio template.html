@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: black;
+        color: white;
+      }
+      #navigation-bar {
+        display: flex;
+        justify-content: space-between;
+        height: 70px;
+      }
+      #logo {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+      }
+
+      #logo img {
+        width: 67px;
+        border: 3px solid gray;
+        border-radius: 50%;
+        margin-left: 30px;
+      }
+      #text {
+        position: relative;
+        margin-top: 29px;
+        margin-left: 5px;
+        color: white;
+        font-weight: bold;
+      }
+      #nav-items {
+        line-height: 35px;
+      }
+      ul {
+        display: flex;
+        justify-content: space-between;
+      }
+      ul li {
+        list-style-type: none;
+        gap: 50px;
+        padding-right: 30px;
+        font-weight: bold;
+        color: white;
+        align-items: center;
+        cursor: pointer;
+      }
+      #mid-section {
+        display: flex;
+        justify-content: space-between;
+        /* border: 5px solid white; */
+        /* background: linear-gradient(to right, red, purple); */
+        /* max-width: 250px; */
+  /* padding: 1rem;
+  position: relative;
+  background: linear-gradient(to right, red, purple);
+  padding: 3px; */
+      }
+      #mid-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 70px;
+        width: 500px;
+        /* border: 5px solid transparent;  */
+        /* border-image: linear-gradient(to right, red, purple);  
+        border-image-slice: 1;    */
+        
+        /* filter: blur(14px); */
+        
+        /* height: 400px;
+    margin-top: 65px;
+    margin-left: 70px; */
+      }
+      .text-data {
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 62px;
+        font-family: "Montserrat", sans-serif;
+      }
+      .dev-name {
+        color: #c10943;
+      }
+      .tag {
+        margin: 30px 0;
+      }
+      .color {
+        font-size: 60px;
+        color: #c10943;
+      }
+
+      #side-img img {
+        width: 400px;
+        padding-right: 200px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav id="navigation-bar">
+      <div id="logo">
+        <div><img src="./Capture.JPG" alt="" /></div>
+        <div id="text">INBIO</div>
+      </div>
+      <div id="nav-items">
+        <ul>
+          <li>HOME</li>
+          <li>FEATURES</li>
+          <li>PORTFOLIO</li>
+          <li>RESUME</li>
+          <li>CLIENTS</li>
+          <li>PRICING</li>
+          <li>BLOG</li>
+          <li>CONTACT</li>
+        </ul>
+      </div>
+    </nav>
+    <div id="mid-section">
+      <div id="mid-text">
+        <span>WELCOME TO MY WORLD</span>
+        <div class="text-data">
+          Hi, I'm <span class="dev-name">John Lee</span> <br />
+          <span class="tag"> a Developer. </span>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur <br />
+          adipisicing elit. Tempore, tenetur <br />
+          sed sit aliquam distinctio in? <br />
+        </p>
+      </div>
+      <div id="side-img">
+        <img
+          src="	https://rainbowit.net/html/inbio/assets/images/slider/banner-01.png"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>
